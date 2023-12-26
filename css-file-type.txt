@@ -1,0 +1,40 @@
+<!-- today we will learn -->
+<!-- 1:font  -->
+<!-- 2:css file  -->
+<!-- 3:flex box -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <!-- external css -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  <!--  -->
+  <!-- <title>Document</title> -->
+  <!-- internal css -->
+    <!-- <style>
+      h2{
+         background: blue;
+      }
+    </style> -->
+
+  <!--  -->
+<!-- </head>
+<body> -->
+   <!-- inline -->
+  <!-- <h1 style="color: red;">Hello world</h1> -->
+  <!--  -->
+
+  <!-- <h2>Lorem ipsum.</h2> -->
+  
+<!-- </body>
+</html> -->
+
+<!-- how to add font -->
+<!--1:go to google and search google free font -->
+<!-- 2: go to search bar and type montserrat -->
+<!-- 3: select font from 100 to 900 -->
+<!-- 4: from the sidebar we copy the font link -->
+<!-- 5: then paste it after css flie  -->
+<!--  -->
