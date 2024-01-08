@@ -130,3 +130,145 @@ body{
         font-size: 65px;
         margin: 0;
     }
+
+    .title-banner{
+        background:linear-gradient(#0000009f,#0000007e),url(./image/banner.jpg) ;
+        height: 100vh; 
+        /*  vh means = view height */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+        color: white;
+        /* flex-box */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 130px;
+    }
+
+    .title-banner h1{
+    font-size: 70px;
+    font-family: 'Montez', cursive; 
+    letter-spacing: 2px;
+    margin-bottom: 0;
+
+    }
+
+    .title-banner p{
+        text-align: center;
+        line-height: 30px;
+        color: #d4d4d4
+    }
+
+    .title-banner button{
+    padding: 16px 76px;
+    font-size: 22px;
+    margin-top: 15px;
+    font-family: 'Montez', cursive;
+    background: none;
+    border: 1px solid #ffffff;
+    transition: .3s ease-in-out;
+    color: white;
+    }
+
+    .title-banner button:hover{
+        background: white;
+        color: black;
+    }
+    .about-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 22px;
+        grid-row-gap: 0px;
+        }
+
+        .about-image img{
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+
+        .about-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .about-content h1{
+        font-family: 'Montez', cursive;
+        font-size: 45px;
+        margin-bottom: 0;
+
+        }
+        .about-content p{
+            text-align: center;
+            padding: 0 50px;
+            line-height: 25px;
+            color: gray;
+        }
+
+        .about-content button{
+            padding: 16px 46px;
+            font-size: 22px;
+            margin-top: 15px;
+            font-family: 'Montez', cursive;
+            background: none;
+            border: 1px solid black;
+            transition: .3s ease-in-out;
+        }
+        
+        .about-content button:hover{
+            background: black;
+            color: white;
+        }
+
+        .contact-section{
+            padding:100px 250px
+        }
+
+        .contact-section h1{
+         font-family: 'Montez', cursive;
+        font-size: 55px;
+        margin-bottom: 0;
+        }
+
+        .contact-section p{
+            color: #767676;
+            line-height: 26px;
+        }
+
+        .contact-section input,textarea{
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 15px;
+            font-family: 'Montserrat', sans-serif;
+            border: 1px solid gray;
+        }
+
+        .contact-section button{
+            padding: 16px 46px;
+            font-size: 22px;
+            margin-top: 15px;
+            font-family: 'Montez', cursive;
+            background: black;
+            border: 1px solid black;
+            transition: .3s ease-in-out;
+            color: #ffffff;
+        }
+
+        .contact-section button:hover{
+            background: none;
+            color: black;
+        }
+
+        .footer{
+            background: black;
+            padding: 30px;
+            color: white;
+            text-align: center;
+            font-family: montez;
+        }
