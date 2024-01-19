@@ -272,3 +272,55 @@ body{
             text-align: center;
             font-family: montez;
         }
+
+
+
+        /* responsive for mobile */
+        @media screen and (max-width: 990px) {
+            .navbar{
+                padding: 10px 10px !important;
+
+            }
+            .banner{
+                height: 85vh;
+                padding: 0 40px;
+                text-align: center;
+            }
+
+            .banner img{
+                width: 100%;
+            }
+
+            
+    .parent {
+    grid-template-columns: repeat(1, 1fr);
+      }
+      .service-caption{
+        padding: 0 20px;
+        }
+
+        .service{
+            margin-bottom: 20px;
+        }
+
+        .title-banner{
+            height: 90vh; 
+            /*  vh means = view height */
+            padding: 0 20px;
+            text-align: center;
+        }
+        .about-section {
+            grid-template-columns: repeat(1, 1fr);
+            }
+
+            .contact-section{
+                padding:100px 20px
+            }
+
+            
+        .contact-section input,textarea{
+            width: 90%;
+        
+        }
+
+          }
